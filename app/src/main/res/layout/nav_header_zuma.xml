@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/download4"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="1dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="60dp"
+        android:contentDescription="@string/my_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/download" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Restourant"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:text="Restourent.2019@gmail.com"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
